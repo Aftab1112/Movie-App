@@ -5,7 +5,7 @@ import React, {
   useState,
 } from "react";
 
-const API_URL = `https://www.omdbapi.com/?apikey=ac9064b&s=fast`;
+const API_URL = `https://www.omdbapi.com/?apikey=ac9064b&s=titanic`;
 
 const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
